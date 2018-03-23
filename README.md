@@ -10,15 +10,27 @@ A minimum test set for building Scss/Autoprefixer with [Parcel](https://parceljs
 Simply,
 
 ```
-git clone https://github.com/naturalogy/testParcel.git
-cd testParcel
-npm install
+git clone https://github.com/naturalogy/testParcel.git [project-name]
 ```
 
-and then
+and on the project directory
+
+```
+npm i
+```
+
+or
+
+```
+yarn
+```
+
+then
 
 ```
 parcel src/index.html
 ```
 
-Have fun! - [http://localhost:1234](http://localhost:1234)
+Check [http://localhost:1234](http://localhost:1234) on your browser.
+
+Have fun!
