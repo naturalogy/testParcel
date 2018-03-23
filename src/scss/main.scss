@@ -1,7 +1,9 @@
 $font-family-base: "Roboto", sans-serif;
-$font-weight-base: 400;
-$font-weight-db: 500;
-$font-weight-bold: 700;
+$font-weight: (
+  base: 400,
+  demi: 500,
+  bold: 700
+);
 $ghost: #fafafa;
 
 html, body, #page {
@@ -11,7 +13,7 @@ body {
   background: $ghost;
   font: {
     family: $font-family-base;
-    weight: $font-weight-base;
+    weight: map-get($font-weight, 'base');
   }
 }
 #page {
@@ -23,9 +25,9 @@ body {
   }
 }
 h1 {
-  font-weight: $font-weight-bold;
+  font-weight: map-get($font-weight, 'bold');
 }
 .lead {
-  font-weight: $font-weight-db;
+  font-weight: map-get($font-weight, 'demi');
   margin-bottom: 0;
 }
