@@ -7,7 +7,14 @@ A minimum test set for building Scss/Autoprefixer with [Parcel](https://parceljs
 
 ## Getting Started
 
-Simply,
+Install Parcel  
+[https://parceljs.org/getting_started.html](https://parceljs.org/getting_started.html)
+
+```
+yarn global add parcel-bundler
+```
+
+Clone this repository and install packages
 
 ```
 git clone https://github.com/naturalogy/testParcel.git [project-name]
@@ -15,7 +22,7 @@ cd [project-name]
 yarn install
 ```
 
-and then
+Then
 
 ```
 yarn run start
