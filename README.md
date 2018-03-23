@@ -11,26 +11,16 @@ Simply,
 
 ```
 git clone https://github.com/naturalogy/testParcel.git [project-name]
+cd [project-name]
+yarn install
 ```
 
-and on the project directory
+and then
 
 ```
-npm i
+yarn run start
 ```
 
-or
-
-```
-yarn
-```
-
-then
-
-```
-parcel src/index.html
-```
-
-Check [http://localhost:1234](http://localhost:1234) on your browser.
+Now check [http://localhost:1234](http://localhost:1234) on your browser.
 
 Have fun!

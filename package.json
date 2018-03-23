@@ -5,7 +5,9 @@
   "author": "naturalogy",
   "homepage": "https://github.com/naturalogy/testParcel",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
   "devDependencies": {
     "autoprefixer": "^7.2.2",
     "node-sass": "^4.7.2"
