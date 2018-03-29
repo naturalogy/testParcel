@@ -1,15 +1,15 @@
 {
   "name": "testParcel",
   "version": "1.0.0",
-  "description": "A simple test set for building Scss/Autoprefixer with Parcel.",
+  "description": "A simple boilerplate for compiling Scss (node-sass + autoprefixer) with Parcel.",
   "author": "naturalogy",
   "homepage": "https://github.com/naturalogy/testParcel",
-  "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html"
+    "start": "parcel ./src/index.html"
   },
   "devDependencies": {
     "autoprefixer": "^7.2.2",
-    "node-sass": "^4.7.2"
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.7.0"
   }
 }

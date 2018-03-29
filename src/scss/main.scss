@@ -1,20 +1,13 @@
-$font-family-base: "Roboto", sans-serif;
-$font-weight: (
-  base: 400,
-  demi: 500,
-  bold: 700
-);
-$ghost: #fafafa;
-
+* {
+  padding: 0;
+  margin: 0;
+}
 html, body, #page {
   height: 100%;
 }
 body {
-  background: $ghost;
-  font: {
-    family: $font-family-base;
-    weight: map-get($font-weight, 'base');
-  }
+  background: lighten(black,98%);
+  font-size: 16px;
 }
 #page {
   display: flex;
@@ -22,12 +15,9 @@ body {
   main {
     flex-grow: 1;
     text-align: center;
+    h1 {
+      font-size: 3rem;
+      color: lighten(black,20%);
+    }
   }
-}
-h1 {
-  font-weight: map-get($font-weight, 'bold');
-}
-.lead {
-  font-weight: map-get($font-weight, 'demi');
-  margin-bottom: 0;
 }
