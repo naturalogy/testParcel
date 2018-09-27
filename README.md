@@ -1,6 +1,6 @@
 # testParcel
 
-A simple boilerplate for compiling Scss (node-sass + autoprefixer) with [Parcel](https://parceljs.org/).
+A simple boilerplate for compiling Scss (Bootstrap 4 + node-sass + autoprefixer) with [Parcel](https://parceljs.org/).
 
 * Developer: [naturalogy](https://naturalogy.net/)
 * Twitter: [@naturalogy](https://twitter.com/naturalogy)
@@ -12,7 +12,7 @@ Clone this repository and install packages
 ```
 git clone https://github.com/naturalogy/testParcel.git [project-name]
 cd [project-name]
-yarn install
+yarn
 ```
 
 Then
