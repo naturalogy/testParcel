@@ -5,13 +5,13 @@
   "author": "naturalogy",
   "homepage": "https://github.com/naturalogy/testParcel",
   "scripts": {
-    "start": "parcel ./src/index.html"
+    "dev": "parcel ./src/index.html"
   },
   "devDependencies": {
-    "autoprefixer": "^9.1.5",
-    "bootstrap": "^4.1.3",
+    "autoprefixer": "^9.5.0",
+    "bootstrap": "^4.3.1",
     "jquery": "^3.3.1",
-    "node-sass": "^4.9.3",
-    "parcel-bundler": "^1.10.0"
+    "node-sass": "^4.11.0",
+    "parcel-bundler": "^1.12.3"
   }
 }
