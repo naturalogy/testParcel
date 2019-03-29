@@ -1,8 +1,4 @@
-html {
-  height: 100%;
-}
-body {
-  font: 400 16px/1.8 'Lato', sans-serif;
+html, body {
   height: 100%;
 }
 #page {
@@ -14,7 +10,7 @@ body {
     main {
       .jumbotron {
         h1 {
-          font: 700 3rem/1.1 'Lato', sans-serif;
+          font-size: 3rem;
         }
         p:last-of-type {
           margin-bottom: 0;
